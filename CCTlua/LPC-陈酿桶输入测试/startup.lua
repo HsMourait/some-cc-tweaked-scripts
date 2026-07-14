@@ -1,0 +1,41 @@
+---@diagnostic disable: undefined-global
+local slot = 1
+while (true) do
+    if redstone.getInput("back") then
+        turtle.select(1)
+        turtle.dropDown(1)
+        turtle.select(2)
+        turtle.dropDown(1)
+        turtle.select(3)
+        turtle.dropDown(1)
+        turtle.select(4)
+        turtle.dropDown(1)
+        turtle.select(5)
+        turtle.dropDown(1)
+        turtle.select(6)
+        turtle.dropDown(1)
+        turtle.select(7)
+        turtle.dropDown(1)
+        turtle.select(8)
+        turtle.dropDown(1)
+        turtle.select(9)
+        turtle.dropDown(1)
+        turtle.select(10)
+        turtle.dropDown(1)
+        turtle.select(11)
+        turtle.dropDown(1)
+        turtle.select(12)
+        turtle.dropDown(1)
+        turtle.select(13)
+        turtle.dropDown(1)
+        turtle.select(14)
+        turtle.dropDown(1)
+        turtle.select(15)
+        turtle.dropDown(1)
+        turtle.select(16)
+        turtle.dropDown(1)
+        sleep(1)
+    else
+        sleep(5)
+    end
+end
